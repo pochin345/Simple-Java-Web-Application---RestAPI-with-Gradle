@@ -1,8 +1,12 @@
 # Simple Java Web Application - RestAPI with Gradle:
-In this exercise, you will be introduced to three items - a build tool, a new IDE and working with a (or two) Java RestAPI.  To start, fork this repository to your own GitHub account.  When the fork is completed, clone the project to your computer with `git clone` command to a directory of your choice on your computer (I named mine demoGradle which shown throughout this Document).  The content of the project should look like the following (the screenshot below is with Windows 10 File explorer. Windows 11/Mac OS show something similar):
+In this exercise, you will be introduced to three items - a build tool, a new IDE and working with two Java RestAPI.  To start, fork this repository to your own GitHub account.
+
+When the fork is completed, clone the project to your computer with `git clone` command to a directory of your choice on your computer (I cloned mine directly to the ***Downloads*** directory which shown throughout this document).
+
+The content of the project ***Simple-Java-Web-Application---RestAPI-with-Gradle*** should look like the following (the screenshot below is with Windows 10 File explorer. Windows 11/Mac OS show something similar):
 
 <div align="center">
-    <img src="images/img.png" border="10">
+    <img src="images/img.png" border="25" alt="">
 </div>
 
 Required software to complete all parts of this exercise:
@@ -17,9 +21,11 @@ Required software to complete all parts of this exercise:
 ## Working with a build tool.
 The build tool you are working with is Gradle.  In this project directory, Gradle is already set up.  Notice there is a file – gradlew – this is the file you will use to build and start the Java web application.
 
+<div align="center">
 ![img_1.png](images/img_1.png)
+</div>
 
-If you are working with Windows’ file explorer, navigate to the demoGradle project root directory as shown in the first screenshot of this document.  Right click and select GitBash.  (Mac has a similar technique for these steps.  Consult with the Internet as the author does not have access to a Mac).
+If you are working with Windows’ file explorer, navigate to the ***Simple-Java-Web-Application---RestAPI-with-Gradle*** project root directory as shown in the first screenshot of this document.  Right click and select GitBash.  (Mac has a similar technique for these steps.  Consult with the Internet as the author does not have access to a Mac).
 
 ![img_2.png](images/img_2.png)
 
@@ -41,7 +47,9 @@ Type the following in the URL/search box:  `http://localhost:8080/greeting`
 
 You will get a response from the web application that looks like this:
 
-![img_6.png](images/img_6.png)
+<div align="center">
+    <img src="images/img_6.png" border="25" />
+</div>
 
 Type the following in the URL/search box:  `http://localhost:8080/greeting?name=Jack Reacher`
 
